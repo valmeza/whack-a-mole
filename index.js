@@ -19,7 +19,14 @@ function randomArray(array) {
   console.log(array)
     if(array) {
         array.style.background = "blue";
+        array.addEventListener("click", hit);
     }
 }
+
+function hit() {
+    alert ("hit");
+}
+
+
 
 
