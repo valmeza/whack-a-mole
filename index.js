@@ -11,13 +11,15 @@ let nine = document.getElementById("nine");
 
 let randomize = [one, two, three, four, five, six, seven, eight, nine]
 
-function randomArray() {
+randomArray(randomize);
+
+function randomArray(array) {
   //grab random element of an array and change color.
-  let randomColor = randomize[Math.floor(Math.random() * randomize.length)];
-  console.log(randomColor)
-    if(randomColor) {
-        randomColor.style.background = "blue";
+  array = randomize[Math.floor(Math.random() * randomize.length)];
+  console.log(array)
+    if(array) {
+        array.style.background = "blue";
     }
 }
 
-randomArray(randomize);
+
