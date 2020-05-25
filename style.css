@@ -7,12 +7,12 @@
 header {
   color: #fff;
   text-align: center;
-  background-color: #333;
+  background-color: darkgreen;
   padding: 20px;
 }
 
 .container {
-  margin: 10em auto;
+  margin: 2em auto;
   display: flex;
   justify-content: center;
 }
